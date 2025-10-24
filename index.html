@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Global Research – A journal of ideas, inquiry, and innovation. Coming soon." />
+  <title>The Global Research | Coming Soon</title>
+
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      --text-color: #ffffff;
+      --accent-color: #00bfa6;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Inter", "Segoe UI", sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      margin-bottom: 2rem;
+    }
+    .highlight {
+      color: var(--accent-color);
+      font-weight: 600;
+    }
+    .email {
+      text-decoration: none;
+      color: var(--accent-color);
+      border: 1px solid var(--accent-color);
+      padding: 0.75rem 1.5rem;
+      border-radius: 2rem;
+      transition: 0.3s ease;
+    }
+    .email:hover {
+      background: var(--accent-color);
+      color: #0f2027;
+    }
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Global Research</h1>
+  <p><span class="highlight">A new journal</span> of ideas, inquiry, and innovation.</p>
+  <p>Our full site is <span class="highlight">coming soon</span>.</p>
+  <a href="mailto:contact@theglobalresearch.org" class="email">Get in Touch</a>
+
+  <footer>© <script>document.write(new Date().getFullYear());</script> The Global Research. All rights reserved.</footer>
+</body>
+</html>
